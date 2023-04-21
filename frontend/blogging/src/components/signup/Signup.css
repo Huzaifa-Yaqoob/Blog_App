@@ -1,0 +1,67 @@
+
+section{
+    margin-top: 3rem;
+}
+
+.formBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Sform{
+    max-width: 400px;
+    padding: 1rem 2rem;
+    background-color: var(--lightOrange);
+    color: var(--offWhite);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#Sform #heading{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+#Sform .input{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0rem;
+}
+
+#Sform .input label{
+    margin-bottom: 0.5rem;
+}
+
+#Sform .input input{
+    padding: 0.2rem 0.5rem;
+    outline: none;
+}
+
+#Sform .input .error{
+    overflow: hidden;
+    overflow-wrap: break-word;
+    color: var(--darkOrange);
+    font-size: 0.8em;
+}
+
+#Sform  #Sbtn button{
+    padding: 0.5rem;
+    background-color: var(--darkOrange);
+    border-radius: 0.5rem;
+    color: var(--offWhite);
+    cursor: pointer;
+}
+
+#Sform  #Sbtn button:hover{
+    background-color: var(--reddishOrange);
+}
+
+@media only screen and (max-width: 600px) {
+    #Sform .input .error{
+        max-width: 200px;
+    }
+}

@@ -1,0 +1,43 @@
+
+#userSection{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+#userSection #profileBox{
+    background-color: var(--darkOrange);
+    border-radius: 1rem;
+    width: 40%;
+    padding: 1rem 2rem;
+    color: var(--skinOrange);
+}
+
+#profileBox div{
+    padding: 0.5rem 1rem;
+}
+
+#profileBox #headingBox{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#profileBox .UBox{
+    display: flex;
+    justify-content: space-around;
+}
+
+#profileBox div{
+    display: flex;
+    justify-content: center;
+}
+
+#profileBox div a{
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    background-color: var(--skinOrange);
+    color: var(--darkOrange);
+}
