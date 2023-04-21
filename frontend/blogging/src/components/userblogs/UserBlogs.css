@@ -1,0 +1,53 @@
+article{
+    margin-top: 1rem;
+}
+
+.articleBox{
+    color: var(--offWhite);
+    background-color: var(--reddishOrange);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+
+.articleBox h2{
+    font-size: 2em;
+}
+
+.articleBox main p{
+    text-indent: 5em;
+}
+
+.articleBox .timeBox{
+    margin-top: 1rem;
+    color: var(--skinOrange);
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.err{
+    margin-top: 1rem;
+    text-align: center;
+    background-color: var(--skinOrange);
+    color: var(--reddishOrange);
+}
+
+.articleBox .timeBox span{
+    display: inline-block;
+}
+
+.errorBox{
+    margin-top: 2rem;
+    text-align: center;
+    color: var(--reddishOrange);
+    font-size: 1.5em;
+}
+
+button{
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    color: var(--reddishOrange);
+    background-color: var(--offWhite);
+}

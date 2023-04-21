@@ -1,0 +1,56 @@
+.heading{
+    color: var(--orange);
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.blogForm{
+    padding: 1rem 2rem;
+}
+
+.formInput textarea{
+    padding: 1rem 0.5rem 0rem 0.5rem;
+    background-color: var(--offWhite);
+    border-radius: 0.5rem;
+    width: 100%;
+    resize: none;
+    outline: none;
+    border: 1px solid var(--offBlack);
+}
+
+.formInput #content{
+    height: 8rem;
+}
+
+.formInput textarea:focus{
+    border: 2px solid var(--darkOrange);
+}
+
+.formInput{
+    margin-top: 1rem;
+}
+
+.error{
+    overflow: hidden;
+    overflow-wrap: break-word;
+    color: var(--darkOrange);
+    font-size: 0.8em;
+}
+
+#authError{
+    margin-top: 0.2rem;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+form .btn button{
+    padding: 0.5rem;
+    background-color: var(--darkOrange);
+    border-radius: 0.5rem;
+    color: var(--offWhite);
+    cursor: pointer;
+}
+
+form .btn button:hover{
+    background-color: var(--reddishOrange);
+}

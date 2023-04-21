@@ -1,0 +1,63 @@
+nav{
+    background-color: var(--lightOrange);
+    position: sticky;
+    top: 0;
+}
+
+.navBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#homeLink{
+    flex-grow: 1;
+}
+
+#homeLink a{
+    display: inline-block;
+    padding: 0.5rem 0rem;
+    color: var(--offWhite);
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+img{
+    width: 2rem;
+    clip-path: circle();
+}
+
+#navButton{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#navButton a{
+    color: var(--offWhite);
+    margin-left: 2rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#navButton button{
+    color: var(--offWhite);
+    margin-left: 2rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#navButton #important{
+    padding: 0.5rem;
+    background-color: var(--darkOrange);
+    border-radius: 0.5rem;
+}
+
+
+#form{
+    display: flex;
+    justify-content: center;
+}
