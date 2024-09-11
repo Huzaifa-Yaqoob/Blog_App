@@ -2,6 +2,7 @@ import { useState } from "react";
 import useAuthContext from "./useAuthContext";
 
 const useSignUp = () => {
+    
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState(null);
     const { dispatch }   = useAuthContext();
